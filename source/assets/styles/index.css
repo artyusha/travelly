@@ -1,0 +1,385 @@
+body {
+	background-color: #3e3b4a;
+	color: #ffffff;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-right: 100px;
+    width: 1000px;
+    min-height: inherit;
+}
+
+.main {
+	padding-top: 30px;
+	min-height: 600px;
+	background-image: url("../images/header/background-image.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: auto;
+}
+
+.header__button {
+	width: 24px;
+	height: 17px;
+	border: none;
+	background-color: transparent;
+	background-image: url("../images/header/hamburger.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.header__button:hover {
+	opacity: 0.75;
+	transition: 0.3s;
+}
+
+.header__button:active {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: auto;
+}
+
+.home__title {
+	margin-top: 0;
+	margin-bottom: 25px;
+	font-size: 52px;
+	font-weight: 300;
+}
+
+.home__form {
+	display: flex;
+	height: 40px;
+}
+
+.home__input {
+	padding-left: 14px;
+	padding-right: 14px;
+	width: 325px;
+	height: 40px;
+	background-color: #ffffff;
+	border: none;
+}
+
+.home__input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-size: 16px;
+  	color: #8b8b8b;
+  	font-weight: 400;
+}
+
+.home__input::-moz-placeholder { /* Firefox 19+ */
+	font-size: 16px;
+  	color: #8b8b8b;
+  	font-weight: 400;
+}
+
+.home__input:-ms-input-placeholder { /* IE 10+ */
+	font-size: 16px;
+    color: #8b8b8b;
+    font-weight: 400;
+}
+
+.home__input:-moz-placeholder { /* Firefox 18- */
+	font-size: 16px;
+ 	color: #8b8b8b;
+ 	font-weight: 400;
+}
+
+.home__button {
+	width: 121px;
+	height: 40px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #fd4f32;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+
+.home__button:hover {
+	opacity: 0.75;
+	transition: 0.3s;
+}
+
+.home__button:active {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.tours {
+	padding-top: 60px;
+	padding-bottom: 70px;
+	background-color: #eeeeee;
+}
+
+.tours__title {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #323232;
+	text-transform: uppercase;
+}
+
+.tours__paragraph {
+	margin-top: 0;
+	margin-bottom: 35px;
+	font-weight: 400;
+	font-size: 15px;
+	color: #8b8b8b;
+}
+
+.tours__list {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.tours__figure {
+	position: relative;
+	margin: 0;
+	width: 240px;
+}
+
+.tours__image {
+	vertical-align: top;
+}
+
+.tours__figcaption {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #e1e0d8;
+}
+
+.tours__price {
+	position: absolute;
+	top: 175px;
+	right: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.tours__figcaption .tours__title {
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.tours__description {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 13px;
+	color: #696969;
+}
+
+.tours__description--width-1 {
+	width: 201px;
+}
+
+.tours__description--width-2 {
+	width: 203px;
+}
+
+.tours__description--width-3 {
+	width: 204px;
+}
+
+.tours__description--width-4 {
+	width: 200px;
+}
+
+.feedback {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.feedback__title {
+	margin-top: 0;
+	margin-bottom: 60px;
+	font-size: 52px;
+	font-weight: 300;
+	color: #323232; 
+}
+
+.feedback__list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 80px;
+}
+
+.feedback__item-title,
+.feedback__description {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #323232;
+	text-transform: uppercase;
+}
+
+.feedback__item-description {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 280px;
+	font-weight: 400;
+	font-size: 15px;
+	color: #8b8b8b;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feedback__form {
+	display: flex;
+	height: 40px;
+}
+
+.feedback__input {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 325px;
+	height: 40px;
+	background-color: #eeeeee;
+	border: none;
+}
+
+.feedback__button {
+	width: 150px;
+	height: 40px;
+	font-weight: 700;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #fd4f32;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+
+.feedback__button:hover {
+	opacity: 0.75;
+	transition: 0.3s;
+}
+
+.feedback__button:active {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.feedback__input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-size: 16px;
+  	color: #8b8b8b;
+  	font-weight: 400;
+}
+
+.feedback__input::-moz-placeholder { /* Firefox 19+ */
+	font-size: 16px;
+  	color: #8b8b8b;
+  	font-weight: 400;
+}
+
+.feedback__input:-ms-input-placeholder { /* IE 10+ */
+	font-size: 16px;
+    color: #8b8b8b;
+    font-weight: 400;
+}
+
+.feedback__input:-moz-placeholder { /* Firefox 18- */
+	font-size: 16px;
+ 	color: #8b8b8b;
+ 	font-weight: 400;
+}
+
+.footer {
+	padding-top: 30px;
+	padding-bottom: 25px;
+	background-color: #eeeeee;
+}
+
+.footer .wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+}
+
+.footer__copyright {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	color: #8b8b8b;
+}
+
+.footer__navigation-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.footer__navigation-item {
+	margin-right: 18px;
+}
+
+.footer__navigation-item:last-child {
+	margin-right: 0;
+}
+
+.footer__navigation-link {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #323232;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.footer__navigation-link:hover {
+	opacity: 0.75;
+	transition: 0.3s
+}
+
+.footer__navigation-link:active {
+	opacity: 0.5;
+	transition: 0.3s
+}
